@@ -2,12 +2,12 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center  bg-neutral-900 transition ">
+    <main className="flex min-h-screen flex-col items-center justify-center  bg-neutral-900 transition inset-0 mx-auto text-center sm:text-left ">
 
-      <div className="z-10 max-w-5xl  items-center justify-between font-mono lg:grid-cols-2 text-sm lg:flex lg:inset-0">
+      <div className="z-10 max-w-5xl  items-center justify-between font-mono sm:grid-cols-2 text-sm lg:flex inset-0">
         <a>
           <Image
-            className="relative scroll-smooth lg:inset-0 md:mx-auto"
+            className="relative scroll-smooth mx-auto "
             src="/images/Ak (2).png"
             alt="kxm Logo"
             width={400}
@@ -18,9 +18,10 @@ export default function Home() {
 
         <a
           href="https://discord.gg/YfZjqSsVz8"
-          className="group rounded-lg border border-transparent py-4 px-2  transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-[15px] border border-transparent py-4 px-2  lg:transition-colors lg:hover:border-gray-300 lg:hover:bg-gray-100 lg:hover:dark:border-neutral-700 lg:hover:dark:bg-neutral-800/30"
           target="_blank"
-          rel="noopener noreferrer">
+          rel="noopener noreferrer"
+          >
 
           <p>
             <a className={`m-1 text-base opacity-90 `}>
@@ -45,12 +46,6 @@ export default function Home() {
 
       </div>
 
-
-
-
-      <div className="relative grid text-center lg:max-w-5xl lg:w-full  lg:grid-cols-2 lg:text-left">
-
-      </div>
     </main>
   )
 }
