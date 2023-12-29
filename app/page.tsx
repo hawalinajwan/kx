@@ -23,24 +23,22 @@ export default function Home() {
           rel="noopener noreferrer"
           >
 
-          <p>
-            <a className={`m-1 text-base opacity-90 `}>
+          
+            <a className={`m-1 text-base opacity-90 animate-pulse`}>
               Discord Server
             </a>
-          </p>
-          <p>
+          
+          
             <h2 className={`mb-5 text-8xl font-semibold text-white`}>
               <a className={`text-red-300`}>K</a>ELAS<a className={`text-red-900`} > A</a>XEM
             </h2>
-          </p>
-          <p className={`m-1   text-lg opacity-60 text-white animate-bounce tracking-wide`}>
+          
+          <a className={`m-1   text-lg opacity-60 text-white animate-bounce tracking-wide`}>
             Click to Join
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
-          </p>
-
-
+          </a>
 
         </a>
 
